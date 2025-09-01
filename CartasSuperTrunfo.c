@@ -54,7 +54,7 @@ int main() {
 
     // Carta 02 
 
-    printf("----- Cadastro de Cartas -----\n");
+    printf("----- Cadastro de Cartas(2) -----\n");
 
     printf("Qual o estado?\n");
     scanf("%s", estado02);
@@ -76,6 +76,9 @@ int main() {
 
     densidadePopulacional2 = (float) populaçao02 / area02;
     pibPerCapita2 = (float) pib02 / populaçao02;
+    inversoDensidade2 = area02 / populaçao02;
+    superPoder2 = populaçao02 + area02 + pontos_turisticos02 + pibPerCapita2 + inversoDensidade2;
+
 
     printf("----- Carta 02 -----\n");
     printf("Estado: %s\n", estado02);
